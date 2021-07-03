@@ -19,7 +19,7 @@ repetitions=0
 #creating UI part
 
 canvas= Canvas(width=1000,height=1080)
-tomato_img=PhotoImage(file="tomato.jpg")
+tomato_img=PhotoImage(file="pls.jpg")
 canvas.create_image(500,540,image=tomato_img)
 #canvas.grid(row=1,column=1)
 canvas.pack()
