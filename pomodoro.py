@@ -19,11 +19,17 @@ repetitions=0
 #creating UI part
 
 canvas= Canvas(width=1000,height=1080)
-tomato_img=PhotoImage(file="pls.jpg")
+tomato_img=PhotoImage(file="E:\gui-apps\pomodoro\pls.png")
 canvas.create_image(500,540,image=tomato_img)
-#canvas.grid(row=1,column=1)
-canvas.pack()
+canvas.grid(row=1,column=1)
+#canvas.pack()
 
+
+start_button=Button(text='start',fg='green')
+start_button.grid(row=2,column=0)
+
+reset_button=Button(text='reset',fg='green')
+reset_button.grid(row=2,column=2)
 
 
 
